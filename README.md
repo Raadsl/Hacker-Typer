@@ -1,2 +1,3 @@
 # Hacker-Typer
-A python hackertyper
+This is a python hacker typer
+Just type random letters lol
