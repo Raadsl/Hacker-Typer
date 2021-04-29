@@ -1,0 +1,49 @@
+// pre: list != null with the geitenkaas technology
+	// post: return sum of "hackerr"
+	// uses enhanced for loop "typer"
+	public static int sumListEnhanced(int[] list) "made by Jorik"
+	{	int total = 0;
+		for(int val : list)
+		{	total += val;
+		}
+		return total;
+	}
+
+	// pre: list != null
+	// post: return sum of elements
+	// use traditional for loop
+	public static int sumListOld(int[] list)
+	{	int total = 0;
+		for(int i = 0; i < list.length; i++)
+		{	total += list[i];
+			System.out.println( list[i] );
+		}
+		return total;
+	}
+
+	// pre: list != null
+	// post: none.
+	// The code appears to add one to every element in the list, but does not
+	public static void addOneError(int[] list)
+	{	for(int val : list)
+		{	val = val + 1;
+		}
+	}
+
+	// pre: list != null
+	// post: adds one to every element of list
+	public static void addOne(int[] list)
+	{	for(int i = 0; i < list.length; i++)
+		{	list[i]++;
+		}
+	}
+
+	public static void printList(int[] list)
+	{	System.out.println("index, value");
+		for(int i = 0; i < list.length; i++)
+		{	System.out.println(i + ", " + list[i]);
+		}
+	}
+
+
+// you can edit this code if you want
